@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+*{
+    text-decoration: none;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: leon;
+    src: url(fontes/idroid-webfont.woff);
+}
+
+/*Configurações do cabeçalho*/
+
+
+header{
+    background-image: linear-gradient(180deg, #3CDA83,#1D683E);
+    height: 160px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header > h1{
+    color: white;
+    margin: auto;
+}
+
+header > p{
+    color: rgb(214, 214, 214);
+    width: 350px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+header > nav{
+    width: 450px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+header > nav > a{
+    color: white;
+    margin: 15px;
+    padding: 4px;
+}
+
+a:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.111);
+    padding: 3px;
+    transition: all .05s ease;
+
+}
+
+/*Configurações do main*/
+
+main{
+    background-color: #84E0AD;
+    
+}
+
+#principal{
+    background-color: white;
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main > div > h1, h2{
+    font-family: leon;
+    color: #1D683E;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+main > div h2{
+    background-image: linear-gradient(90deg,rgba(2, 189, 2, 0.234), white);
+}
+
+main > div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 15px;
+    text-indent: 16px;
+    font-weight: bold;
+    
+}
+
+.imagem{
+    padding: 10px 15px;
+    margin: auto;
+}
+
+#robozinho{
+    width: 300px;
+    margin: auto;
+}
+
+#video{
+    margin: auto;
+}
+
+#divfundo{
+    background-color: #84E0AD;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.171);
+}
+
+main > div > div > h3{
+    background-color: #2baf66;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+#sectionfinal{
+    padding: 10px;
+}
+
+#articleprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+
+
+/*Configuração do footer*/
+
+footer{
+    background-color: #1D683E;
+    color: rgba(255, 255, 255, 0.46);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#span{
+    color: rgba(255, 255, 255, 0.63);
+}
