@@ -1,0 +1,1 @@
+1. Atualizei o site e tornei ele mais responsivo apenas usando CSS
